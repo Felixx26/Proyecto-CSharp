@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Proyecto_axura
 {
-    public partial class Form1 : Form
+    public partial class Agregar : FormBase
     {
-        public Form1()
+        public Agregar()
         {
             InitializeComponent();
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            Guardar();
+        }
+        public virtual void Guardar()
+        {
+
+        }
     }
 }
+
